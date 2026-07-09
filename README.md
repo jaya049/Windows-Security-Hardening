@@ -22,19 +22,29 @@ This project uses the cybersecurity home lab created in the previous project (ht
 | Privilege escalation | UAC |
 | Legacy protocols | Disable SMBv1 |
 
-## Windows Update
+# Windows Security Hardening
+
+## 1. Windows Update
 
 ### Objective
 
-Ensure the operating system is updated with the latest security patches.
+Ensure the operating system has the latest security patches.
 
 ### Procedure
 
-Checked Windows Update through the Windows Update settings.
+Opened:
+
+Settings
+→ Update & Security
+→ Windows Update
+
+Clicked:
+
+Check for Updates
 
 ### Verification
 
-Confirmed the operating system reports that it is up to date.
+The system reported that it was up to date.
 
 ### Security Benefit
 
