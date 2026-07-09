@@ -10,5 +10,22 @@ This project uses the cybersecurity home lab created in the previous project (ht
 - **VirtualBox NAT:** Provides Internet connectivity for updates.
 - **Host-Only Network:** Intended for isolated communication between virtual machines.
 
-  <img width="1920" height="1080" alt="architecture" src="https://github.com/user-attachments/assets/b9ae4236-9137-40da-9e1a-769377995648" />
+  !architecture](docs/screenshots/architecture.png)
+
+  | Threat                           | Mitigation            |
+
+| -------------------------------- | --------------------- |
+
+| Unauthorized local access        | Disable Guest account |
+
+| Weak passwords                   | Password policy       |
+
+| Malware                          | Microsoft Defender    |
+
+| Unauthorized inbound connections | Windows Firewall      |
+
+| Privilege escalation             | UAC                   |
+
+| Legacy protocols                 | Disable SMBv1         |
+
 
